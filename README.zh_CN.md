@@ -15,8 +15,7 @@
 </div>
 
 <div>
-    <a href="./README.md">[英文版Readme]</a>
-    <a href="./README.zh_CN.md">[中文版Readme]</a>
+    <a href="./README.md">[English Readme]</a>
 </div>
 
 ## ✨ Carpet DER Addition是什么项目？

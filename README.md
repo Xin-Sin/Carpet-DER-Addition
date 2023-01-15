@@ -15,7 +15,7 @@
 </div>
 
 <div>
-    <a href="./README.zh_CN.md">[Chinese Readme]</a>
+    <a href="./README.zh_CN.md">[中文版 Readme]</a>
 </div>
 
 ## ✨ What is a mobile Carpet DER Addition？
