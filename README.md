@@ -4,8 +4,8 @@
 <h5 align="center">🚧 Note: The current project is in the early development stage, please feedback in time if there are any problems</h5>
 
 <div align="center">
-    <a href="https://github.com/Xin-Sin/Carpet-DER-Addition/blob/1.18/README.md">[English Readme]</a>
-    <a href="https://github.com/Xin-Sin/Carpet-DER-Addition/blob/1.18/README.zh_CN.md">[Chinese Readme]</a>
+    <a href="./README.md">[English Readme]</a>
+    <a href="./README.zh_CN.md">[Chinese Readme]</a>
 </div>
 
 <br>

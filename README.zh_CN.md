@@ -4,8 +4,8 @@
 <h5 align="center">🚧 注意:当前项目处于早期开发阶段,如遇问题请及时反馈</h5>
 
 <div align="center">
-    <a href="https://github.com/Xin-Sin/Carpet-DER-Addition/blob/1.18/README.md">[英文版Readme]</a>
-    <a href="https://github.com/Xin-Sin/Carpet-DER-Addition/blob/1.18/README.zh_CN.md">[中文版Readme]</a>
+    <a href="./README.md">[英文版Readme]</a>
+    <a href="./README.zh_CN.md">[中文版Readme]</a>
 </div>
 
 <br>
