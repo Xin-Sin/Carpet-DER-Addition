@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Carpet DER Addition
 
-## Setup
+[中文](./README_zh.md)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## ✏️ how to carpet der addition commit code?
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- 1.Please follow the submission format below:
+- `🚧 Fix`,`➕ Feat`,`🔨 Refactor`,`📝 Docs`,`✨ Style`,`🍱 Perf`,`🔧 Test`,`⚡️ Chore`,`🐛` Bug

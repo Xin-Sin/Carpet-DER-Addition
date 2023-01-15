@@ -1,29 +1,40 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "carpet-der-addition",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Carpet DER Addition",
+  "description": "A fabric-carpet extension mod. It offers some interesting features.",
   "authors": [
-    "Me!"
+    {
+      "name": "xinsin",
+      "contact": {
+        "homepage": "https://github.com/xinsin"
+      }
+    },
+    {
+      "name": "wzp",
+      "contact": {
+        "homepage": "https://github.com/wzp-2008"
+      }
+    }
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/wzp-2008",
+    "sources": "https://github.com/Xin-Sin/Carpet-DER-Addition"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/carpet-der-addition/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "cn.tensorpixel.dreamrunner.CarpetDERAddition"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "carpet-der-addition.mixins.json"
   ],
 
   "depends": {
