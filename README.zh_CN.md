@@ -3,11 +3,6 @@
 <h2 align="center">🌟项目名称: Carpet DER Addition</h2>
 <h5 align="center">🚧 注意:当前项目处于早期开发阶段,如遇问题请及时反馈</h5>
 
-<div align="center">
-    <a href="./README.md">[英文版Readme]</a>
-    <a href="./README.zh_CN.md">[中文版Readme]</a>
-</div>
-
 <br>
 
 <div align="center">
@@ -17,6 +12,11 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/Java-v.17.x.x-green">
+</div>
+
+<div>
+    <a href="./README.md">[英文版Readme]</a>
+    <a href="./README.zh_CN.md">[中文版Readme]</a>
 </div>
 
 ## ✨ Carpet DER Addition是什么项目？
@@ -46,7 +46,3 @@
 ## ⚖️ 开源协议
 - 本项目是面向大众的，所以我们会进行开源,请遵循相关开源协议 [CC0-1.0 license](https://github.com/XinSin-top/Carpet-DER-Addition/LICENSE) 的规则.
 - 众人拾柴火焰高，开源需要依靠大家的努力，请自觉遵守开源协议，弘扬开源精神，共建开源社区！
-
-## 🧑‍💻如何开发?
-- 1.使用`git clone https://github.com/Xin-Sin/Carpet-DER-Addition.git` 下载我们的项目
-- 2.我们建议您使用`idea`来进行开发,那样将会为您省去很多配置环境时间

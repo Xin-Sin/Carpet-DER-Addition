@@ -3,11 +3,6 @@
 <h2 align="center">🌟Project Name: Carpet DER Addition</h2>
 <h5 align="center">🚧 Note: The current project is in the early development stage, please feedback in time if there are any problems</h5>
 
-<div align="center">
-    <a href="./README.md">[English Readme]</a>
-    <a href="./README.zh_CN.md">[Chinese Readme]</a>
-</div>
-
 <br>
 
 <div align="center">
@@ -17,6 +12,10 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/Java-v.17.x.x-green">
+</div>
+
+<div>
+    <a href="./README.zh_CN.md">[Chinese Readme]</a>
 </div>
 
 ## ✨ What is a mobile Carpet DER Addition？
@@ -38,7 +37,7 @@
 - `🐛 Bug`,`✨ Style`,`🎨 Proposai`.
 
 ## 👥 Developers of the project
-- `[UI设计]Mo_Yi`  `[开发]xinxin`  `[开发]wzp`
+- `[UI Design]Mo_Yi`  `[Developer]xinxin`  `[Developer]wzp`
 - [Dongyifengs's GitHub](https://github.com/Dongyifengs)
 - [XinSin's GitHub](https://github.com/xin-sin)
 - [Wzp-2008's GitHub](https://github.com/Wzp-2008)
@@ -46,7 +45,3 @@
 ## ⚖️ Open source agreement
 - This project is for the public, so we will open source, please follow the relevant open source agreement rules of [CC0 1.0 License](https://github.com/XinSin-top/Carpet-DER-Addition/LICENSE).
 - The fire is high when people gather firewood. Open source depends on your efforts. Please consciously abide by the open source agreement, carry forward the spirit of open source, and jointly build the open source community!
-
-## 🧑‍💻如何开发?
-- 1.Use the `git clone https://github.com/Xin-Sin/Carpet-DER-Addition.git` to download our project.
-- 2.We recommend that you use `idea` for development, which will save you a lot of time in configuring the environment.
