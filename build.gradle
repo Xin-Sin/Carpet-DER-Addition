@@ -37,7 +37,9 @@ dependencies {
 	testImplementation 'junit:junit:4.13.2'
 	// https://mvnrepository.com/artifact/org.projectlombok/lombok
 	compileOnly 'org.projectlombok:lombok:1.18.24'
-
+	annotationProcessor 'org.projectlombok:lombok:1.18.24'
+	testCompileOnly 'org.projectlombok:lombok:1.18.24'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
 processResources {
