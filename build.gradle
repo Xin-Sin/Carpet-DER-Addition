@@ -31,8 +31,6 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	//new carpet
 	modImplementation "carpet:fabric-carpet:${project.minecraft_version}-${project.carpet_core_version}"
-	//new request
-	implementation group: 'commons-codec', name: 'commons-codec', version: '1.15'
 	// https://mvnrepository.com/artifact/junit/junit
 	testImplementation 'junit:junit:4.13.2'
 	// https://mvnrepository.com/artifact/org.projectlombok/lombok

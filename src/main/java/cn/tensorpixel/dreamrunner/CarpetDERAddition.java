@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 public class CarpetDERAddition implements ModInitializer, CarpetExtension {
 
-    public static final Logger LOGGER = LoggerFactory.getLogger("carpet-xinsin-addition");
+    public static final Logger log = LoggerFactory.getLogger("carpet-xinsin-addition");
 
     private static SettingsManager carpetDERAdditionSettingManager;
     @Override
