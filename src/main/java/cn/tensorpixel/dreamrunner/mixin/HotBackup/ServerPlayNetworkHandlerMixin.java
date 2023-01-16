@@ -1,5 +1,6 @@
 package cn.tensorpixel.dreamrunner.mixin.HotBackup;
 
+import cn.tensorpixel.dreamrunner.CarpetDERAdditionSettings;
 import cn.tensorpixel.dreamrunner.command.HotBackupCommand;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
@@ -25,14 +26,16 @@ public abstract class ServerPlayNetworkHandlerMixin {
      */
     @Overwrite
     public void sendPacket(Packet<?> packet, @Nullable GenericFutureListener<? extends Future<? super Void>> listener) {
-        if (packet instanceof KeepAliveS2CPacket || !HotBackupCommand.isReplace){
-            try {
-                this.getConnection().send(packet, listener);
-            } catch (Throwable var6) {
-                CrashReport crashReport = CrashReport.create(var6, "Sending packet");
-                CrashReportSection crashReportSection = crashReport.addElement("Packet being sent");
-                crashReportSection.add("Packet class", () -> packet.getClass().getCanonicalName());
-                throw new CrashException(crashReport);
+        if(CarpetDERAdditionSettings.HotBackup){
+            if (packet instanceof KeepAliveS2CPacket || !HotBackupCommand.isReplace){
+                try {
+                    this.getConnection().send(packet, listener);
+                } catch (Throwable var6) {
+                    CrashReport crashReport = CrashReport.create(var6, "Sending packet");
+                    CrashReportSection crashReportSection = crashReport.addElement("Packet being sent");
+                    crashReportSection.add("Packet class", () -> packet.getClass().getCanonicalName());
+                    throw new CrashException(crashReport);
+                }
             }
         }
     }

@@ -1,5 +1,6 @@
 package top.xinsin;
 
+import cn.tensorpixel.dreamrunner.rule.hotBackup.BackupRule;
 import org.junit.Test;
 
 import java.io.File;
@@ -51,5 +52,9 @@ public class testFile {
             }
         }
         return false;
+    }
+    @Test
+    public void testList(){
+//        new BackupRule().list();
     }
 }

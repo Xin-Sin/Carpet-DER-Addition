@@ -1,7 +1,5 @@
 package top.xinsin;
 
-import cn.tensorpixel.dreamrunner.rule.hotBackup.Backup;
-import cn.tensorpixel.dreamrunner.util.FileUtilByBackup;
 import org.junit.Test;
 
 import java.io.File;
@@ -17,7 +15,7 @@ public class CopyTest {
     }
     @Test
     public void testSlotNext(){
-        FileUtilByBackup.slotNext(new File("run/backup"));
-        new File("run/backup/slot1").mkdir();
+//        FileUtilByBackup.slotNext(new File("run/backup"));
+//        new File("run/backup/slot1").mkdir();
     }
 }

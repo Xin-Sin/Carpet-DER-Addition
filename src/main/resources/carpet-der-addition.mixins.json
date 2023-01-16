@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "HotBackup.ServerPlayNetworkHandlerMixin",
-    "HotBackup.MinecraftServerMixin"
+    "HotBackup.MinecraftServerMixin",
+    "HotBackup.ServerCommandSourceMixin"
   ],
   "client": [
   ],

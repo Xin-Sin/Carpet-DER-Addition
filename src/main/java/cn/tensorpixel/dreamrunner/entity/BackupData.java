@@ -13,6 +13,6 @@ import java.util.UUID;
 public class BackupData {
     private String commit;
     private Date createTime;
-    private UUID creator;
+    private String creator;
 
 }
